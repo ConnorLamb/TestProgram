@@ -1,0 +1,16 @@
+{
+  "name": "MoviePuller",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "express": "latest",
+    "ejs": "latest",
+    "twitter":"latest",
+    "tomatoes": "latest",
+    "Sentimental": "latest",
+  },
+  "engines": {
+    "node": "0.10.13",
+    "npm": "1.3.2"
+  }
+}

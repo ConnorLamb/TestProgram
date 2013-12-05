@@ -1,0 +1,165 @@
+<link rel = "stylesheet" href = "style.css">
+<html lang ="en">
+
+<head>
+<title> Twitter Application </title>
+
+<script src="recent.js"> </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+<meta charset="utf-10">
+</head>	
+	<body onload="storage()">
+		<header>
+		</header>
+		
+		<br/>
+		
+		<div>
+			<h1> Team Nameless Mobile App </h1>
+		</div>
+		
+		<div>
+			<h2> Homepage </h2>
+		</div>
+		<div>
+		<table id = "table1">
+		<caption> Movie Info </caption>
+			<tr>
+				<td> Title</td>
+			</tr>
+			<tr>
+				<td> Year released</td>
+			</tr>
+			<tr>
+				<td> Rating</td>
+			</tr>
+			<tr>
+				<td> Time</td>
+			</tr>
+			<tr>
+				<td> Description</td>
+			</tr>
+			<tr>
+				<td> Link</td>
+			</tr>
+			
+		</table>
+		</div>
+				<form id = "form">
+			Hashtags: <input type = "text"  id = "htag1" placeholder="#Movies" > </br>
+			Rotten Tomatos: <input type = "text" id = "htag2" placeholder="The Dark Knight" > </br>
+			Mile Radius: <input type = "text"  id = "radius" placeholder="50" min ="1" max ="100"> </br>
+			Sentiment: <select type = ""  id = "senti" > 
+				<option value="1"> Highest </option>
+				<option value="2"> Lowest </option> </select>
+				<br>
+			
+			<input type = "button" onclick="run(htag1.value, htag2.value)" id = "submit" value = "Submit">
+			<input type = "reset">
+		</form>
+		
+		<div>
+		<table id = "table2">
+		<caption> Tweets </caption>
+		
+			<tr>
+				<td>  </td> 
+				<td> 1 </td> 
+				<td> 2 </td> 
+				<td> 3 </td> 
+				<td> 4 </td> 
+				<td> 5 </td> 
+			</tr>
+			<tr id = "tweet1"> 
+				<td> 1) </td> 
+				<td>  </td> 
+				<td>  </td> 
+				<td>  </td> 
+				<td>  </td> 
+				<td>  </td> 
+			</tr>
+			<tr id = "tweet2">
+				<td> 2) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td>
+				<td> </td> 
+			</tr>
+			<tr id="tweet3">
+				<td> 3) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet4">
+				<td> 4) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet5">
+				<td> 5) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet6">
+				<td> 6) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet7">
+				<td> 7) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet8">
+				<td> 8) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet9">
+				<td> 9) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+			<tr id="tweet10">
+				<td> 10) </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+				<td> </td> 
+			</tr>
+		</table>
+		</div>
+		
+		
+		</div>
+
+		
+		
+
+	</body>
+</html>
